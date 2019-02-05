@@ -1,0 +1,15 @@
+sftp vvv@publish.lanl.gov << EOF
+cd /www/dev-green/docs/projects/tensors
+mkdir css
+mkdir logos
+mkdir font
+mkdir images
+mkdir js
+mkdir mads_logos
+mkdir manual_images
+mkdir material-design-icons
+mkdir photos
+put -rp ./*
+bye
+EOF
+echo Done.
