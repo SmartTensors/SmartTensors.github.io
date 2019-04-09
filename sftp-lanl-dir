@@ -1,6 +1,6 @@
 sftp vvv@publish.lanl.gov << EOF
 cd /www/dev-green/docs/projects/tensors
-lcd ~/www/tensors
+lcd /Users/monty/www/TensorDecompostions
 mkdir $1
 put -r $1
 cd $1
