@@ -1,0 +1,20 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "torigin"]
+	url = git@github.com:TensorDecompositions/TensorDecompositions.github.io.git
+	fetch = +refs/heads/*:refs/remotes/torigin/*
+[remote "sorigin"]
+	url = git@github.com:SmartTensors/SmartTensors.github.io.git
+	fetch = +refs/heads/*:refs/remotes/sorigin/*
+[remote "all"]
+	url = git@github.com:SmartTensors/SmartTensors.github.io.git
+	url = git@github.com:TensorDecompositions/TensorDecompositions.github.io.git
+	fetch = +refs/heads/*:refs/remotes/all/*
+[branch "master"]
+	remote = all
+	merge = refs/heads/master
