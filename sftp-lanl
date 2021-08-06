@@ -1,15 +1,18 @@
 sftp vvv@publish.lanl.gov << EOF
 cd /www/dev-green/docs/projects/tensors
-lcd /Users/vvv/www/TensorDecompostions
-mkdir css
-mkdir logos
-mkdir font
+lcd /Users/vvv/www/SmartTensors
+mkdir assets
+mkdir figures
+mkdir figures/lansce
 mkdir images
-mkdir js
-mkdir mads_logos
-mkdir manual_images
-mkdir material-design-icons
-mkdir photos
+mkdir img
+mkdir logo
+mkdir movies
+mkdir movies/chromium
+mkdir movies/europe
+mkdir movies/geysers
+mkdir movies/mixing
+mkdir movies/polymer
 put -rp ./*
 bye
 EOF
