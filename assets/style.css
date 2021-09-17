@@ -463,7 +463,7 @@ a:hover {
 
 .navbar-b.navbar-reduce {
 	transition: all .5s ease-in-out;
-	background-color: #878787;
+	background-color: #1a1a1a;
 	padding-top: 15px;
 	padding-bottom: 15px;
 }

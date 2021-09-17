@@ -101,8 +101,21 @@
 		});
 	}
 
-	/*--/ Research owl /--*/
-	$('#research-mf').owlCarousel({
+	/*--/ Examples owl /--*/
+	$('#examples-mf').owlCarousel({
+		margin: 20,
+		autoplay: true,
+		autoplayTimeout: 4000,
+		autoplayHoverPause: true,
+		responsive: {
+			0: {
+				items: 1,
+			}
+		}
+	});
+
+	/*--/ Videos owl /--*/
+	$('#videos-mf').owlCarousel({
 		margin: 20,
 		autoplay: true,
 		autoplayTimeout: 4000,
