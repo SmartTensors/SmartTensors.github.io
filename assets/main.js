@@ -101,8 +101,8 @@
 		});
 	}
 
-	/*--/ Examples owl /--*/
-	$('#examples-mf').owlCarousel({
+	/*--/ Applications owl /--*/
+	$('#applications-mf').owlCarousel({
 		margin: 20,
 		autoplay: true,
 		autoplayTimeout: 4000,
