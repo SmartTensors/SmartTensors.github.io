@@ -4,7 +4,7 @@ lcd /Users/vvv/www/SmartTensors
 mkdir $1
 put -r $1
 cd $1
-chmod 644 *
+chmod 666 *
 bye
 EOF
 echo Done.
